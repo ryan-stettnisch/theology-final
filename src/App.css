@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: antiquewhite;
+  height: 150vh;
 }
 
 .App-logo {
@@ -14,25 +16,56 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
+  background-image: url("https://images.unsplash.com/photo-1512273222628-4daea6e55abb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW91bnRhaW4lMjBzbm93fGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 100px;
+  color: rgb(12, 71, 0);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-info {
+  text-align: left;
+  color:rgb(187, 5, 84);
+  font-size: 40px;
+  background-color: rgb(95, 244, 162);
+  width: 90vh;
+}
+.App-class {
+  text-align: left;
+  color:rgb(0, 0, 0);
+  font-size: 50px;
+  background-color: rgb(32, 255, 43);
+  width: 90vh;
+}
+.App-class2 {
+  text-align: left;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: rgb(32, 255, 43);
+  width: 90vh;
+}
+.App-video {
+  text-align: left;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: antiquewhite;
+  width: 190vh;
+}
+.App-body {
+  text-align: left;
+  float: right;
+  color:rgb(0, 0, 0);
+  font-size: 22px;
+  background-color: rgb(46, 182, 107);
+  width: 103vh;
+  height: 67vh;
 }
